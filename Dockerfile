@@ -1,4 +1,4 @@
-FROM node:16.12.0-buster
+FROM node:16.18.1-buster
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ADD . /
