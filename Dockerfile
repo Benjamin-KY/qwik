@@ -1,4 +1,4 @@
-FROM node:19.7-buster
+FROM node:19.7-bullseye-slim
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ADD . /
